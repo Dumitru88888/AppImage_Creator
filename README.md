@@ -7,6 +7,7 @@ Screenshots of the program.
 <img width="1040" height="720" alt="Screenshot_20260828_110524" src="https://github.com/user-attachments/assets/5766745a-9ae1-43ee-9202-4f8229a91a01" />
 <img width="1040" height="720" alt="Screenshot_20260828_110536" src="https://github.com/user-attachments/assets/41b8d3b9-d520-44e6-bb7a-4f2357f52f30" />
 
+
 What do you need to install so that the program will run on your operating system? Here is the list:
 
 1.Python 3.14.7
