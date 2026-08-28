@@ -1,15 +1,48 @@
- <img width="480" height="480" alt="Program Logo" src="https://github.com/user-attachments/assets/53269dcd-fca0-49f3-8a97-5bf06265e9e2" />
+# AppImage Builder — Fluent Design Edition
 
-AppImage Creator is a convenient program for creating portable applications in the AppImage format. It allows you to configure the name, version, icon, executable file, and .desktop file, and then build a ready-to-run AppImage that can be launched without installation.
+Графическое приложение для сборки переносимых AppImage-пакетов на Linux в стиле Microsoft Fluent Design (PySide 6 + qfluentwidgets).
 
-Screenshots of the program.
+## Возможности
 
-<img width="1040" height="720" alt="Screenshot_20260828_110434" src="https://github.com/user-attachments/assets/b995cf67-7151-4b8a-b6f0-43333bd2d401" />
-<img width="1040" height="720" alt="Screenshot_20260828_110511" src="https://github.com/user-attachments/assets/a60c8d61-c4f0-405d-b082-9fcccbca0241" />
-<img width="1040" height="720" alt="Screenshot_20260828_110524" src="https://github.com/user-attachments/assets/5766745a-9ae1-43ee-9202-4f8229a91a01" />
-<img width="1040" height="720" alt="Screenshot_20260828_110536" src="https://github.com/user-attachments/assets/41b8d3b9-d520-44e6-bb7a-4f2357f52f30" />
+- **Сборка AppImage** — из любого исполняемого файла, с автоматическим созданием AppDir, AppRun и `.desktop`-файла
+- **Автоматическое создание `.desktop`** — одной кнопкой из заполненных метаданных
+- **Валидатор `.desktop`-файлов** — проверка обязательных полей и стандартных категорий
+- **Менеджер зависимостей** — подключение дополнительных библиотек (.so) к сборке
+- **Менеджер скриптов** — включение shell-скриптов в AppImage
+- **Сохранение / загрузка конфигураций** в JSON, быстрое сохранение на рабочий стол
+- **Автоустановка linuxdeploy** прямо из интерфейса
+- **Сборка в фоновом потоке** с журналом и возможностью отмены
+- **Тёмная и светлая темы** — приложение следует теме оформления системы
+- **Два языка интерфейса** — русский и английский
 
-What do you need to install so that the program will run on your operating system? Here is the list:
+## Установка
 
-1. Python 3.14.7
-2. PyQt5 5.15.11
+```bash
+pip install PySide6 PySide6-Fluent-Widgets
+```
+
+## Запуск
+
+```bash
+python3 AppImage_Builder_Fluent.py
+```
+
+Или двойным щелчком по ярлыку / с помощью скрипта-лаунчера:
+
+```bash
+./launch_appimage_builder.sh
+```
+
+## Структура проекта
+
+| Файл | Назначение |
+|------|-----------|
+| `AppImage_Builder_Fluent.py` | Всё приложение в одном файле |
+| `launch_appimage_builder.sh` | Запуск без окна терминала (фоновый режим) |
+| `install_appimage_tools.sh` | Установка linuxdeploy в систему |
+
+## Системные требования
+
+- Python 3.8+
+- Linux (сборка AppImage использует linuxdeploy и работает только в Linux)
+- Рекомендуемый значок: PNG 256x256
