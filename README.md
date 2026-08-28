@@ -1,4 +1,5 @@
-<img width="1254" height="1254" alt="Program Logo" src="https://github.com/user-attachments/assets/07b5d01f-ef43-4202-8f91-80d721bb1752" />
+<img width="480" height="480" alt="Program Logo" src="https://github.com/user-attachments/assets/53269dcd-fca0-49f3-8a97-5bf06265e9e2" />
+
 
 
 AppImage Creator is a convenient program for creating portable applications in the AppImage format. It allows you to configure the name, version, icon, executable file, and .desktop file, and then build a ready-to-run AppImage that can be launched without installation.
