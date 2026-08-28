@@ -1,5 +1,10 @@
 # AppImage Builder — Fluent Design Edition
 
+<img width="1040" height="720" alt="Screenshot_20260828_161643" src="https://github.com/user-attachments/assets/233fe187-6e6a-413f-9973-5b4276a80ad7" />
+
+
+
+
 Графическое приложение для сборки переносимых AppImage-пакетов на Linux в стиле Microsoft Fluent Design (PySide 6 + qfluentwidgets).
 
 ## Возможности
