@@ -1,2 +1,1 @@
-# A-user-friendly-program-for-creating-portable-AppImage-applications.
-**AppImage Creator** — удобная программа для создания переносимых приложений Linux в формате AppImage. Позволяет настроить имя, версию, иконку, исполняемый файл и `.desktop`-файл, а затем собрать готовый AppImage для запуска без установки.
+AppImage Creator is a convenient program for creating portable applications in the AppImage format. It allows you to configure the name, version, icon, executable file, and .desktop file, and then build a ready-to-run AppImage that can be launched without installation.
