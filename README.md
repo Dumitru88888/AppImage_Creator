@@ -8,5 +8,6 @@ Screenshots of the program.
 <img width="1040" height="720" alt="Screenshot_20260828_110536" src="https://github.com/user-attachments/assets/41b8d3b9-d520-44e6-bb7a-4f2357f52f30" />
 
 What do you need to install so that the program will run on your operating system? Here is the list:
+
 1.Python 3.14.7
 2.PyQt5 5.15.11
